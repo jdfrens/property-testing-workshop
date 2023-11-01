@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "mix test",
+      "type": "shell",
+      "command": "mix",
+      "args": [
+        "test"
+      ],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": [
+
+      ]
+    },
+    {
+      "label": "mix test (focus)",
+      "type": "shell",
+      "command": "mix",
+      "args": [
+        "test",
+        "--only",
+        "focus:true"
+      ],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": [
+
+      ]
+    },
+    {
+      "label": "mix deps.get",
+      "type": "shell",
+      "command": "mix",
+      "args": [
+        "deps.get"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": [
+
+      ]
+    },
+  ]
+}
